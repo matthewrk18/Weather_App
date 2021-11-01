@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="css/main.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main.js" defer></script>
+<title>Weather API</title>
+</head>
+<body>
+
+    <div class="container-fluid">
+        <div class="card text-center">
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="Enter City" style="height: 2.5em;">
+                <button type="button" class="btn btn-primary" onclick="displayDataF()">°F</button>
+                <button type="button" class="btn btn-primary" onclick="displayDataC()">°C</button>
+            </div>
+            <div class="weather">
+                <h1 class="city"></h1>
+                <h2 class="low"></h2>
+                <h2 class="high"></h2>
+                <div class="flex">
+                    <img src="" alt="" class="icon" />
+                    <h3 class="description"></h3>
+                </div>
+                <h3 class="humidity"></h3>
+                <h3 class="wind"></h3>
+                <h3 class="cloud"></h3>
+                <h3 class="sunrise"></h3>
+                <h3 class="sunset"></h3>
+            </div>
+        </div>
+    </div>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
